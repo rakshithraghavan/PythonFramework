@@ -38,7 +38,7 @@ def setup(request):     ## request is predefined object, which will be auto popu
     driver.close()
 
 
- This hook is used to take automatically screenshot and place in HTML report
+# This hook is used to take automatically screenshot and place in HTML report
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):
     """
