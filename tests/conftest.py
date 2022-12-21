@@ -62,7 +62,7 @@ def pytest_runtest_makereport(item):
         report.extra = extra
 
 
-def _capture_screenshot(name):
-    global driver
-    driver.get_screenshot_as_file(name)
+#def _capture_screenshot(name):
+#    global driver
+#    driver.get_screenshot_as_file(name)
 
