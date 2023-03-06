@@ -17,7 +17,7 @@ def setup(request):     ## request is predefined object, which will be auto popu
 
      # parameter which can be passed with pytest command
     if browser_name == "chrome":
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome("C:/Program Files/chromedriver.exe")
     elif browser_name == "firefox":
         driver = webdriver.Firefox()
     elif browser_name == "IE":
